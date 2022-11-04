@@ -1,0 +1,133 @@
+.carousel-item {
+  height: 100vh;
+  width: 100vw;
+}
+
+.carousel-item > img {
+  width: 100vw;
+}
+
+.carousel-caption {
+  display: flex;
+  align-items: flex-start;
+  height: 70%;
+  flex-direction: column;
+  line-height: 2rem;
+  margin-right: 20rem;
+}
+.carousel-caption > h1 {
+  font-size: 4rem;
+  color: white;
+  margin-right: 20rem;
+}
+
+.carousel-caption > p {
+  font-size: 1.25rem;
+}
+
+nav {
+  background: transparent;
+  width: 100vw;
+  height: 5rem;
+  position: fixed;
+  top: 0;
+  z-index: 11;
+}
+
+.nav_container {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav_menu {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.window-scroll {
+  background: black;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  border-radius: 30px !important;
+}
+.cont img {
+  width: 100%;
+  position: relative;
+}
+
+.cont .overlay {
+  position: absolute;
+  top: 80px;
+  right: 15px;
+
+  text-align: left;
+}
+
+ul,
+p .caro,
+.title {
+  padding-left: 0.25rem !important;
+  text-shadow: 1px 1px 2px white, 0 0 1em black, 0 0 0.2em black;
+}
+
+.seacrh:focus {
+  border-color: #dc3545 !important;
+}
+
+.modal-title {
+  font-size: 1rem !important;
+}
+.modal-footer {
+  display: flex !important;
+  justify-content: flex-start !important;
+}
+
+.icon {
+  right: 2rem;
+  position: absolute;
+}
+
+.icon-mail {
+  top: 1.6rem;
+  z-index: 9999;
+}
+.icon-mail-regist {
+  top: 8.5rem;
+  z-index: 9999;
+}
+.icon-first {
+  top: 1.6rem;
+  z-index: 9999;
+}
+
+.icon-last {
+  top: 5rem;
+  z-index: 9999;
+}
+
+.icon-eye-login {
+  bottom: 2.6rem;
+}
+.icon-eye {
+  bottom: 5.65rem;
+}
+.icon-eye-confirm {
+  bottom: 2.5rem;
+}
+
+.modal-content {
+  border-radius: 0px !important;
+}
+
+.form-control {
+  border-radius: 25px !important;
+}
+
+.modal-footer {
+  border-top: 0px !important;
+}
